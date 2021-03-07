@@ -1,0 +1,4 @@
+CREATE USER testuser;
+CREATE DATABASE testdb;
+GRANT ALL PRIVILEGES ON DATABASE testdb TO testuser;
+ALTER USER testuser WITH ENCRYPTED PASSWORD 'testpassword';
